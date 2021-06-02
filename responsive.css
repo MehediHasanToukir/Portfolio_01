@@ -1,0 +1,154 @@
+@media screen and (min-width: 768px) {
+
+    body {
+        /* background-color: tomato; */
+        margin: 0;
+    }
+
+    .section {
+        padding-top: 4rem;
+        padding-bottom: 48px;
+    }
+
+    .section-title {
+        margin-bottom: var(--mb-6);
+    }
+
+    .section-title::after {
+        width: 80px;
+        top: 40px;
+    }
+
+    .nav {
+        height: calc(var(--header-height) + 16px);
+    }
+
+    .nav_list {
+        display: flex;
+        margin-right: 150px;
+    }
+
+    .nav_item {
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+    }
+
+
+    .nav_toggle {
+        display: none;
+    }
+
+    .nav_link {
+        color: black;
+
+    }
+
+    .home {
+        height: 100vh;
+    }
+
+    .home_information {
+        align-self: flex-end;
+    }
+
+    .home_title {
+        font-size: 2.8rem;
+    }
+
+    .home_social {
+        flex-direction: row;
+        align-self: flex-end;
+        padding-bottom: 40px;
+        padding-top: 0;
+    }
+
+    .home_social_icon {
+        margin-right: var(--mb-4);
+        margin-bottom: 0;
+    }
+
+    .home_img {
+        width: 250px;
+        bottom: 15%;
+        top: 350px;
+        left: 50%;
+    }
+
+    .about .about_text {
+        font-size: 14px;
+        margin-left: -80px;
+        padding: 30px;
+    }
+
+    .about_subtitle {
+        margin-left: -50px;
+        margin-bottom: -35px;
+    }
+
+    .about_container,
+    .skills_container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
+        margin: auto;
+    }
+
+    .skills_img {
+        margin-top: 56%;
+    }
+
+    .about_img {
+        width: 250px;
+    }
+
+    .work_container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 32px;
+    }
+
+    .contact_container {
+        margin: auto;
+        justify-items: center;
+    }
+
+    .contact_form {
+        width: 360px;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .bd-grid {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home_title {
+        font-size: 3.5rem;
+    }
+
+    .home_img {
+        width: 300px;
+        left: 70%;
+        top: 300px;
+    }
+
+    .about .about_text {
+        font-size: 1rem;
+        margin-left: -150px;
+        padding: 30px;
+    }
+
+    .about_subtitle {
+        margin-left: -115px;
+        margin-bottom: -30px;
+    }
+
+    .skills_img {
+        /* margin-bottom: 35%; */
+        margin-top: 20%;
+    }
+}
